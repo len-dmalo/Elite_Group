@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroedge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Agroedge</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services We Offer.html">Services We Offer</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="offer-banner">
+            <h1>Free soil and plant assesment</h1>
+            <p>Save more by getting a free assessment of your farm.</p>
+            <button class= "cta-button"onclick="scrollToOffers()">View Offers</button>
+        </section>
+
+        <section class="offers" id="offers">
+            <h2>Current Offers</h2>
+            <div class="offer-card">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\offer 1.jpg" alt="Offer 1">
+                <h3> Free soil and plant assessment</h3>
+                <p> Make your farm greener today by getting your farm assesed for whattever is hailing it.</p>
+                <p class="Free deals">Free plant and soil assessment</p>
+                <button class="cta-button"onclick="showDetails('Land assessment and advice for free')">Details</button>
+            </div>
+            <div class="offer-card">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\offer 2.jpeg" alt="Offer 2">
+                <h3>Join us and get your land assessed for free</h3>
+                <p>Make your farm greener and yield more.</p>
+                <p class="offer-price">Get free land assessment for free</p>
+                <button class="cta-button"onclick="showDetails('Accessories', 'Offer', 'Get your farm assessed for free')">Details</button>
+            </div>
+            <!-- Add more offers as needed -->
+        </section>
+
+        <div id="detailsModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeDetails()">&times;</span>
+                <h2 id="modal-offer-title"></h2>
+                <p id="modal-offer-description"></p>
+                <p id="modal-offer-price"></p>
+                <button>Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Agroedge. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:info@AgriTech.com">info@Agroedge.com</a></p>
+            <div class="social-media">
+                <p>Follow us on:</p>
+                <a href="https://www.facebook.com/Agroedge" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/Agroedge" target="_blank">Instagram</a> |
+                <a href="https://www.twitter.com/Agroedge" target="_blank">Twitter</a>
+            </div>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a> | 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

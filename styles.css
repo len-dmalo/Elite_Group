@@ -1,0 +1,562 @@
+/* Reset and General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    color: #bff107;
+    background-color: #f9f9f9;
+}
+
+/* Navigation Bar */
+
+/* Navigation Bar Styles */
+nav {
+    background-color: #060f01fd; /* Blue background color */
+    padding: 15px;             /* Padding for spacing */
+}
+
+.nav-menu {
+    list-style-type: none;     /* Remove bullet points */
+    display: flex;             /* Flexbox for horizontal layout */
+    justify-content: center;   /* Center the items */
+    margin: 0;                 /* Remove default margin */
+    padding: 0;                /* Remove default padding */
+}
+
+.nav-menu li {
+    margin: 0 20px;           /* Space between menu items */
+}
+
+.nav-menu a {
+    color: rgb(74, 241, 7);              /* White text color */
+    text-decoration: none;     /* Remove underline from links */
+    font-size: 18px;           /* Font size for links */
+    font-weight: bold;         /* Bold font weight */
+    transition: color 0.3s;    /* Smooth color transition on hover */
+}
+
+
+.nav-menu a:hover {
+    color: #f5a623;            /* Change color on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .nav-menu {
+        flex-direction: column; /* Stack items vertically on smaller screens */
+        align-items: center;     /* Center items */
+    }
+    
+    .nav-menu li {
+        margin: 10px 0;        /* Space between stacked items */
+    }
+}
+
+
+/* Hero Section */
+.hero {
+    height: 100vh; /* Full viewport height */
+    
+  width: 50vh; /* Adjust width to be less than full screen (e.g., 50% of viewport width) */
+  display: flex;
+  align-items: center; /* Centers content vertically */
+  justify-content: space-between; /* Aligns content to the left */
+  padding: 100px 20px;
+  background-image: url('path_to_your_image.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: left; /* Align background to the left */
+  color: #3001fffd;
+  box-sizing: border-box;
+}
+
+.hero-span {
+    display: flex;
+    flex-direction: column;
+}
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 50dvw;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #04f104;
+    border: #04f104;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #e07040;
+}
+
+/* Footer */
+footer {
+    background: #333; /* Dark background for the footer */
+    color: white;     /* White text color for contrast */
+    padding: 20px;    /* Padding for spacing */
+    text-align: center; /* Centered text */
+}
+
+.footer-content {
+    max-width: 800px; /* Max width for content alignment */
+    margin: 0 auto;   /* Center the footer content */
+}
+
+.social-media {
+    margin: 10px 0;   /* Margin for spacing between elements */
+}
+
+.footer-links {
+    margin-top: 10px;  /* Margin for separation */
+}
+
+.footer-links a, .social-media a {
+    color: white;       /* White text for links */
+    text-decoration: none; /* No underline for links */
+}
+
+.footer-links a:hover, .social-media a:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Reset some default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4; /* Light gray background */
+    color: #333; /* Dark text for readability */
+}
+
+/* Header styles */
+header {
+    background: #6a5acd; /* Slate blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin: 20px 0;
+}
+
+/* Heading styles */
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* Image styles */
+img {
+    max-width: 100%; /* Responsive image */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow eff */
+    
+    }
+    
+/* Responsive styles */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 24px; /* Smaller font size for smaller screens */
+    }
+
+    h2 {
+        font-size: 20px; /* Smaller font size for smaller screens */
+    }
+}
+/* Additional CSS styles from previous instructions... */
+
+.logo {
+    font-weight: bold;    /* Makes the text bold */
+    font-size: 36px;      /* Adjust the size as needed */
+    color: rgb(6, 252, 26);         /* Sets the text color to black */
+    text-decoration: none; /* Removes any underline */
+}
+
+/* Other CSS styles... */
+.collection-items {
+    display: flex;
+    flex-wrap: wrap;  /* Allows items to wrap to the next line */
+    justify-content: center; /* Center the items */
+    gap: 20px;        /* Space between items */
+}
+
+.item {
+    background: #fff; /* White background for items */
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 10px;    /* Padding inside items */
+    text-align: center; /* Center text */
+    width: 200px;     /* Fixed width for items */
+}
+
+.item img {
+    max-width: 100%;  /* Responsive image */
+    height: auto;     /* Maintain aspect ratio */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background: url('banner.jpg') no-repeat center center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(20, 23, 197);
+    text-align: center;
+}
+
+.categories {
+    padding: 20px;
+    text-align: center;
+    color:#1341dbdc
+}
+
+.category {
+    margin: 20px;
+}
+
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    color: #1a172c;
+}
+.product {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.product:hover {
+    transform: scale(1.05);
+}
+
+.product img {
+    width: 150px;
+    height: auto;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #35c00b;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #14a70e;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.offer-banner {
+    background: url('banner-offer.jpg') no-repeat center center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(21, 24, 211);
+    text-align: center;
+}
+
+.offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.offer-card {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s;
+}
+
+.offer-card:hover {
+    transform: scale(1.05);
+}
+
+.offer-card img {
+    width: 100%;
+    height: auto;
+}
+
+.offer-price {
+    font-weight: bold;
+    color: #e74c3c; /* Red color for offers */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.blog-banner {
+    background: url('banner-blog.jpg') no-repeat center center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(34, 17, 187);
+    text-align: center;
+}
+
+.blog-posts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post-card {
+    border: 1px solid #ccc;
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.2s;
+    cursor: pointer;
+}
+
+.post-card:hover {
+    transform: scale(1.05);
+}
+
+.post-card img {
+    width: 100%;
+    height: auto;
+}
+
+.excerpt {
+    color: #555; /* Lighter color for the excerpt */
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 500px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+

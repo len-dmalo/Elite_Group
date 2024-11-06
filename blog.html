@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroedge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Agroedge</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services We Offer.html">Services We Offer</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="blog-banner">
+            <h1>Welcome to the Agroedge blog!</h1>
+            <p>Stay updated with our latest news, tips, and trends in agriculture.</p>
+        </section>
+
+        <section class="blog-posts">
+            <h2>Latest Posts</h2>
+            <div class="post-card" onclick="showPostDetails('Discover trends in farming methods and agricultural technology!')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\b1.jpeg" alt="Blog Post 1">
+                <h3>The Latest Farming Trends</h3>
+                <p>Posted on: October 1, 2024</p>
+                <p class="excerpt">Discover trends in farming methods and agricultural technology</p>
+            </div>
+            <div class="post-card" onclick="showPostDetails('The way to smart farming', 'Modern tools and digital meters can help you venture into smart farming')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\b2.jpeg" alt="Blog Post 2">
+                <h3>The way to smart farming</h3>
+                <p>Posted on: September 25, 2024</p>
+                <p class="excerpt">Mordern tools and digital meters can help you venture into smart farming</p>
+            </div>
+            <div class="post-card" onclick="showPostDetails('Smart farming : Why It Matters', 'Learn about smart farming and how you can make a difference in agriculture.')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\b3.jpeg" alt="Blog Post 3">
+                <h3>Smart farming: Why It Matters</h3>
+                <p>Posted on: September 15, 2024</p>
+                <p class="excerpt">Learn about smart farming and how you can make a difference in agriculture</p>
+            </div>
+            <!-- Add more blog posts as needed -->
+        </section>
+
+        <div id="postModal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closePostDetails()">&times;</span>
+                <h2 id="modal-post-title"></h2>
+                <p id="modal-post-content"></p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Agroedge. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:info@Agroedge.com">info@Agroedge.com</a></p>
+            <div class="social-media">
+                <p>Follow us on:</p>
+                <a href="https://www.facebook.com/Agroedge" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/Agroedge" target="_blank">Instagram</a> |
+                <a href="https://www.twitter.com/Agroedge" target="_blank">Twitter</a>
+            </div>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a> | 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="script.js"></script>
+</body>
+</html>

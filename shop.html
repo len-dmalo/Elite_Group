@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroedge</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Agroedge</div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Services We Offer.html">Servces We Offer</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="offer.html">Offer</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="banner">
+            <h1>Welcome to Agroedge Shop!</h1>
+            <button class="cta-button" onclick="scrollToProducts()">Shop Now</button>
+        </section>
+        
+        <section class="categories">
+            <h2>Service Categories</h2>
+            <div class="category">
+                <h3>Soil and plant assessment</h3>
+                <p>Increased crop produce and improve your farm soils.</p>
+            </div>
+            <div class="category">
+                <h3>Helping in produce increament</h3>
+                <p>Increase your farm produce with a significant percentage.</p>
+            </div>
+            <div class="category">
+                <h3>Food production</h3>
+                <p>Increased food production for better income.</p>
+            </div>
+        </section>
+
+        <section class="featured-products" id="products">
+                <h2 class="banner">
+                    Available products from
+                    our farmers
+                </h2>
+            <div class="product" onclick="openModal('Agrochemiocals', 'Better affordable chemicals.', 'affordable pricing')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\Agricultural chemicals.jpeg" alt="Agrochemicals">
+                <h3>future product</h3>
+                <p>not available</p>
+            </div>
+            <div class="product" onclick="openModal('Groceries', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p1.jpeg" alt="Groceries">
+                <h3>Groceries</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Cerials, Vegetables and Fruits', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p2.jpeg" alt="p2">
+                <h3>Cerials, Vegetables and Fruits</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Cerials', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p3.jpeg" alt="p3">
+                <h3>Cerials</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Fruits', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p4.jpeg" alt="p4">
+                <h3>Fruits</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Fruits', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p5.jpeg" alt="p5">
+                <h3>Fruits</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Green Maize', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p6.jpeg" alt="p6">
+                <h3>Green Maize</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Oranges', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p7.jpeg" alt="p7">
+                <h3>Oranges</h3>
+                <p></p>
+            </div>
+            <div class="product" onclick="openModal('Mangoes', 'To alow farmers go through drought with ease.', 'KES')">
+                <img src="D:\WORKING PROJECTS.html\Glowing website\web photos\p8.jpeg" alt="p8">
+                <h3>Mangoes</h3>
+                <p></p>
+            </div>
+            <!-- Add more products as needed -->
+        </section>
+
+        <div id="modal" class="modal">
+            <div class="modal-content">
+                <span class="close" onclick="closeModal()">&times;</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-description"></p>
+                <p id="modal-price"></p>
+                <button class ="cta-button">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Agroedge. All rights reserved.</p>
+            <p>Contact us: <a href="mailto:info@agroedge.com">info@agroedge.com</a></p>
+            <div class="social-media">
+                <p>Follow us on:</p>
+                <a href="https://www.facebook.com/Agroedge" target="_blank">Facebook</a> |
+                <a href="https://www.instagram.com/Agroedge" target="_blank">Instagram</a> |
+                <a href="https://www.twitter.com/Agroedge" target="_blank">Twitter</a>
+            </div>
+            <div class="footer-links">
+                <a href="privacy-policy.html">Privacy Policy</a> | 
+                <a href="terms-of-service.html">Terms of Service</a>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="script.js"></script>
+</body>
+</html>

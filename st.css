@@ -1,0 +1,46 @@
+/* Set up full height and center elements */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .homepage {
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+    background-image: url('path_to_your_image.jpg'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    color: #3001fffd;
+    text-align: left;
+    box-sizing: border-box;
+    padding: 20px;
+  }
+  
+  .content {
+    max-width: 600px; /* Limit the width of the content */
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    padding: 30px;
+    border-radius: 8px;
+  }
+  
+  .title {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .subtitle {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .text-sections p {
+    margin: 10px 0;
+    line-height: 1.6;
+  }
+  
